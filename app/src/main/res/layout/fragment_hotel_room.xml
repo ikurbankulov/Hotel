@@ -3,14 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="#F6F6F9"
     tools:context=".presentation.HotelRoomFragment">
 
-<Toolbar
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="#FFFFFF"/>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/baseline_arrow_back_ios_24"
+        android:paddingStart="10dp"
+        app:titleMarginStart="32dp"
+        app:title="Steigenberger Makadi"
+
+        android:background="#FFFFFF">
+
+
+    </androidx.appcompat.widget.Toolbar>
 
 
 

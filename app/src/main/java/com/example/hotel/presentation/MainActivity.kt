@@ -8,6 +8,7 @@ import com.example.hotel.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.fragment_hotel)
+        setContentView(R.layout.activity_main)
+
     }
 }

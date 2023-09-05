@@ -252,7 +252,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/forward_arrow"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
                         app:layout_constraintBottom_toBottomOf="@id/tv_button_property_2"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="@id/tv_button_property_1" />
@@ -305,7 +305,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/forward_arrow"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
                         app:layout_constraintBottom_toBottomOf="@id/tv_button_property_3"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="@id/tv_button_property_4" />
@@ -356,7 +356,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/forward_arrow"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
                         app:layout_constraintBottom_toBottomOf="@id/tv_button_property_5"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="@id/tv_button_property_6" />
@@ -375,6 +375,7 @@
             android:background="#FFFFFF">
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_select_hotel"
                 style="@style/button"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
