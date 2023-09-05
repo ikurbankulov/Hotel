@@ -1,6 +1,7 @@
 package com.example.hotel.data
 
 import android.app.Application
+import com.example.hotel.data.network.ApiFactory
 import com.example.hotel.domain.HotelRepository
 import com.example.hotel.domain.models.Booking
 import com.example.hotel.domain.models.Hotel
@@ -9,7 +10,7 @@ import com.example.hotel.domain.models.Tourist
 
 class HotelRepositoryImpl(private val application: Application) : HotelRepository {
     override suspend fun getHotelData(): Hotel {
-        TODO("Not yet implemented")
+        return ApiFactory.apiService.getHotelData()
     }
 
     override suspend fun getRoomData(): List<Room> {

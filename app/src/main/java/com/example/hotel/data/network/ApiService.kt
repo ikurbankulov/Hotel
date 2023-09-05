@@ -1,5 +1,6 @@
 package com.example.hotel.data.network
 
+import com.example.hotel.data.HotelDto
 import com.example.hotel.domain.models.Hotel
 import retrofit2.http.GET
 

@@ -1,9 +1,9 @@
-package com.example.hotel.domain.models
+package com.example.hotel.data
 
 import com.example.hotel.domain.AboutTheHotel
 import com.google.gson.annotations.SerializedName
 
-data class Hotel(
+data class HotelDto(
     @SerializedName("id")
     val id: Int,
     @SerializedName("name")
@@ -22,15 +22,5 @@ data class Hotel(
     val imageUrls: List<String>,
     @SerializedName("about_the_hotel")
     val aboutTheHotel: AboutTheHotel
-//    val id: Int,
-//    val name: String,
-//    val address: String,
-//    val minimalPrice: Int,
-//    val priceForIt: String,
-//    val rating: Int,
-//    val ratingName: String,
-//    val imageUrls: List<String>,
-//    val aboutTheHotel: AboutTheHotel
+
 )
-
-
