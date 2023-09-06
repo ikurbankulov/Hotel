@@ -13,6 +13,7 @@ import com.example.hotel.databinding.FragmentHotelBinding
 import com.example.hotel.presentation.hotelRoomScreen.HotelRoomFragment
 import com.example.hotel.presentation.hotelScreen.adapter.ViewPagerAdapter
 import com.google.android.material.chip.Chip
+import com.google.android.material.tabs.TabLayoutMediator
 
 
 class HotelFragment : Fragment() {
@@ -40,6 +41,9 @@ class HotelFragment : Fragment() {
         binding.viewPager.adapter = viewPagerAdapter
         setButtonClickListener()
         setContent()
+
+        TabLayoutMediator(binding.tabLayout, binding.viewPager) { tab, position ->
+        }.attach()
     }
 
     private fun setContent() {
