@@ -1,6 +1,6 @@
 package com.example.hotel.data
 
-import com.example.hotel.domain.AboutTheHotel
+import com.example.hotel.domain.models.AboutTheHotel
 import com.google.gson.annotations.SerializedName
 
 data class HotelDto(

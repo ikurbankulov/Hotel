@@ -16,6 +16,7 @@
         <item name="android:fontFamily">@font/sf_pro_display_semibold</item>
     </style>
 
+
     <style name="Theme.Hotel" parent="Base.Theme.Hotel" />
 
 </resources>

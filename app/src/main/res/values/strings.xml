@@ -4,4 +4,10 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title">Отель</string>
     <string name="room_detail">Подробнее о номере</string>
+    <string name="price_template">от %d ₽</string>
+    <string name="rating_template">%1$s %2$s</string>
+    <string name="tour_with_flight">за тур с перелётом</string>
+    <string name="about_the_hotel">Об отеле</string>
+
+
 </resources>
